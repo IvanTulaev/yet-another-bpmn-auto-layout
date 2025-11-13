@@ -1,6 +1,6 @@
 {
-  "name": "bpmn-auto-layout-feat-ivan-tulaev",
-  "version": "3.0.0-beta.18",
+  "name": "yet-another-bpmn-auto-layout",
+  "version": "0.0.1",
   "description": "Layout BPMN diagrams, generating missing DI information",
   "type": "module",
   "exports": {
@@ -34,13 +34,13 @@
   ],
   "author": {
     "name": "IvanTulaev & bpmn.io contributors",
-    "url": "https://boosty.to/tulaev"
+    "url": "https://github.com/IvanTulaev"
   },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/IvanTulaev/bpmn-auto-layout-feat-IvanTulaev/issues"
   },
-  "homepage": "https://boosty.to/tulaev",
+  "homepage": "https://github.com/IvanTulaev",
   "dependencies": {
     "bpmn-moddle": "^9.0.1",
     "graph-by-ivan-tulaev": "^1.0.0-alpha.3",
