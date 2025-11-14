@@ -24,15 +24,15 @@
       <bpmndi:BPMNShape id="Activity_09kkekv_di" bpmnElement="Activity_09kkekv">
         <dc:Bounds x="175" y="170" width="100" height="80" />
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNEdge id="Flow_0qxg6ou_di" bpmnElement="Flow_0qxg6ou">
-        <di:waypoint x="100" y="210" />
-        <di:waypoint x="175" y="210" />
-      </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="Flow_128ka86_di" bpmnElement="Flow_128ka86">
         <di:waypoint x="225" y="250" />
         <di:waypoint x="225" y="280" />
         <di:waypoint x="75" y="280" />
         <di:waypoint x="75" y="235" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_0qxg6ou_di" bpmnElement="Flow_0qxg6ou">
+        <di:waypoint x="100" y="210" />
+        <di:waypoint x="175" y="210" />
       </bpmndi:BPMNEdge>
     </bpmndi:BPMNPlane>
   </bpmndi:BPMNDiagram>

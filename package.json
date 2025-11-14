@@ -43,7 +43,7 @@
   "homepage": "https://github.com/IvanTulaev",
   "dependencies": {
     "bpmn-moddle": "^9.0.1",
-    "graph-by-ivan-tulaev": "^1.0.0-alpha.3",
+    "graph-by-ivan-tulaev": "^1.0.0-alpha.6",
     "min-dash": "^4.1.1"
   },
   "devDependencies": {

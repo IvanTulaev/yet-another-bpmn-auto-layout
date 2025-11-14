@@ -32,14 +32,14 @@
       <bpmndi:BPMNShape id="SubProcess_1_di" bpmnElement="SubProcess_1">
         <dc:Bounds x="175" y="30" width="100" height="80" />
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="BoundaryEvent_1_di" bpmnElement="BoundaryEvent_1">
-        <dc:Bounds x="207" y="92" width="36" height="36" />
-      </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Gateway_1fi4yrl_di" bpmnElement="Gateway_1fi4yrl" isMarkerVisible="true">
         <dc:Bounds x="350" y="45" width="50" height="50" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Event_0f1boev_di" bpmnElement="Event_0f1boev">
         <dc:Bounds x="507" y="52" width="36" height="36" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="BoundaryEvent_1_di" bpmnElement="BoundaryEvent_1">
+        <dc:Bounds x="207" y="92" width="36" height="36" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNEdge id="Flow_1t9f51i_di" bpmnElement="Flow_1t9f51i">
         <di:waypoint x="93" y="70" />
