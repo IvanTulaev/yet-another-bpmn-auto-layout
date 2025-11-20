@@ -2,9 +2,9 @@ name: CI with GitHub Pages
 
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
   pull_request:
-    branches: [ main ]
+    branches: [ master ]
 
 permissions:
   contents: read
@@ -35,13 +35,13 @@ jobs:
         run: npm run build:example
 
       - name: Upload artifact
-        if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
+        if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/master' }}
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./example/dist
 
   Deploy:
-    if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
+    if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/master' }}
     needs: Build
     runs-on: ubuntu-latest
     environment:
