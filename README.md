@@ -2,21 +2,23 @@
 
 Create and layout the graphical representation of a BPMN diagram.
 
-## [DEMO](https://ivantulaev.github.io/bpmn-auto-layout-feat-IvanTulaev/)
+## [DEMO](https://ivantulaev.github.io/yet-another-bpmn-auto-layout/)
 
 ## Differences with original repository
 
 * Given a collaboration **ALL** participant's process will be laid out.
 * **Collapsed** and **expanded sub-processes** has different layout.
 * Independent graphs of process are laid out on different grid lines.
+* **Data Associations** are laid out as task or gateway
 * Happy path not very happy, but large process graphs are more understandable for humans :)
+* Example with **step-by-step debug mode** 
 
 ## Usage
 
 This library works with [Node.js](https://nodejs.org/) and in the browser.
 
 ```javascript
-import { layoutProcess } from 'bpmn-auto-layout-feat-ivan-tulaev';
+import { layoutProcess } from 'yet-another-bpmn-auto-layout';
 
 import diagramXML from './diagram.bpmn';
 
@@ -30,19 +32,19 @@ console.log(diagramWithLayoutXML);
 * The following elements are not laid out:
   * Groups
   * Text annotations
-  * Associations 
+  * Lanes
 
 ## Resources
 
-* [Issues](https://github.com/IvanTulaev/bpmn-auto-layout-feat-IvanTulaev/issues)
+* [Issues](https://github.com/IvanTulaev/yet-another-bpmn-auto-layout/issues)
 
 
 
 ## Run example (for BAs, SAs and other business people :) )
 1. Run in terminal commands below 
     ```sh
-    git clone https://github.com/IvanTulaev/bpmn-auto-layout-feat-IvanTulaev.git
-    cd bpmn-auto-layout-feat-IvanTulaev
+    git clone https://github.com/IvanTulaev/yet-another-bpmn-auto-layout.git
+    cd yet-another-bpmn-auto-layout
     npm install
     npm start
     ```
