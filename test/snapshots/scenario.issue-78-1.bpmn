@@ -88,14 +88,14 @@
         <di:waypoint x="850" y="70" />
         <di:waypoint x="957" y="70" />
       </bpmndi:BPMNEdge>
-      <bpmndi:BPMNEdge id="Flow_0y96iwg_di" bpmnElement="Flow_0y96iwg">
-        <di:waypoint x="725" y="70" />
-        <di:waypoint x="800" y="70" />
-      </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="Flow_00v13p3_di" bpmnElement="Flow_00v13p3">
         <di:waypoint x="700" y="210" />
         <di:waypoint x="825" y="210" />
         <di:waypoint x="825" y="95" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_0y96iwg_di" bpmnElement="Flow_0y96iwg">
+        <di:waypoint x="725" y="70" />
+        <di:waypoint x="800" y="70" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="Flow_177laws_di" bpmnElement="Flow_177laws">
         <di:waypoint x="575" y="210" />

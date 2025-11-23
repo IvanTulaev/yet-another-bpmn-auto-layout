@@ -177,14 +177,14 @@
         <di:waypoint x="575" y="210" />
         <di:waypoint x="650" y="210" />
       </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="exclusiveGateway2-exclusiveGateway3_di" bpmnElement="exclusiveGateway2-exclusiveGateway3">
+        <di:waypoint x="700" y="210" />
+        <di:waypoint x="1250" y="210" />
+      </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="task8-exclusiveGateway3_di" bpmnElement="task8-exclusiveGateway3">
         <di:waypoint x="1175" y="490" />
         <di:waypoint x="1275" y="490" />
         <di:waypoint x="1275" y="235" />
-      </bpmndi:BPMNEdge>
-      <bpmndi:BPMNEdge id="exclusiveGateway2-exclusiveGateway3_di" bpmnElement="exclusiveGateway2-exclusiveGateway3">
-        <di:waypoint x="700" y="210" />
-        <di:waypoint x="1250" y="210" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="exclusiveGateway2-task3_di" bpmnElement="exclusiveGateway2-task3">
         <di:waypoint x="675" y="235" />

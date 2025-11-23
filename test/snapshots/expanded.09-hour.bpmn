@@ -189,6 +189,10 @@
         <di:waypoint x="875" y="70" />
         <di:waypoint x="957" y="70" />
       </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_00jwhhq_di" bpmnElement="Flow_00jwhhq">
+        <di:waypoint x="725" y="350" />
+        <di:waypoint x="807" y="350" />
+      </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="Flow_1vk4fvr_di" bpmnElement="Flow_1vk4fvr">
         <di:waypoint x="93" y="350" />
         <di:waypoint x="175" y="350" />
@@ -203,14 +207,6 @@
         <di:waypoint x="275" y="350" />
         <di:waypoint x="325" y="350" />
       </bpmndi:BPMNEdge>
-      <bpmndi:BPMNEdge id="Flow_00jwhhq_di" bpmnElement="Flow_00jwhhq">
-        <di:waypoint x="725" y="350" />
-        <di:waypoint x="807" y="350" />
-      </bpmndi:BPMNEdge>
-      <bpmndi:BPMNEdge id="Flow_06u5ekl_di" bpmnElement="Flow_06u5ekl">
-        <di:waypoint x="575" y="350" />
-        <di:waypoint x="625" y="350" />
-      </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="Flow_0tcyc5q_di" bpmnElement="Flow_0tcyc5q">
         <di:waypoint x="525" y="390" />
         <di:waypoint x="525" y="420" />
@@ -220,6 +216,10 @@
       <bpmndi:BPMNEdge id="Flow_1qi2nbd_di" bpmnElement="Flow_1qi2nbd">
         <di:waypoint x="425" y="350" />
         <di:waypoint x="475" y="350" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_06u5ekl_di" bpmnElement="Flow_06u5ekl">
+        <di:waypoint x="575" y="350" />
+        <di:waypoint x="625" y="350" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="Flow_0gbol6p_di" bpmnElement="Flow_0gbol6p">
         <di:waypoint x="93" y="490" />

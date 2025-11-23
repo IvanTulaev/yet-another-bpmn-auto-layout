@@ -51,11 +51,6 @@
       <bpmndi:BPMNShape id="boundary_2_di" bpmnElement="boundary_2">
         <dc:Bounds x="223.66666666666669" y="92" width="36" height="36" />
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNEdge id="Flow_1p5v54y_di" bpmnElement="Flow_1p5v54y">
-        <di:waypoint x="208.33333333333334" y="128" />
-        <di:waypoint x="208.33333333333334" y="490" />
-        <di:waypoint x="325" y="490" />
-      </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="Flow_0xhtwne_di" bpmnElement="Flow_0xhtwne">
         <di:waypoint x="241.66666666666669" y="128" />
         <di:waypoint x="241.66666666666669" y="210" />
@@ -65,6 +60,11 @@
         <di:waypoint x="241.66666666666669" y="128" />
         <di:waypoint x="241.66666666666669" y="350" />
         <di:waypoint x="325" y="350" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_1p5v54y_di" bpmnElement="Flow_1p5v54y">
+        <di:waypoint x="208.33333333333334" y="128" />
+        <di:waypoint x="208.33333333333334" y="490" />
+        <di:waypoint x="325" y="490" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="Flow_1t9f51i_di" bpmnElement="Flow_1t9f51i">
         <di:waypoint x="93" y="70" />

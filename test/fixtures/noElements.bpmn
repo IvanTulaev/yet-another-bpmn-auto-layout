@@ -31,7 +31,7 @@
       <bpmn:incoming>sequenceFlow_5</bpmn:incoming>
       <bpmn:outgoing>sequenceFlow_8</bpmn:outgoing>
     </bpmn:inclusiveGateway>
-    <bpmn:inclusiveGateway id="inclusiveGateway_3" name="">
+    <bpmn:inclusiveGateway id="gw_3" name="">
       <bpmn:incoming>sequenceFlow_18</bpmn:incoming>
       <bpmn:incoming>sequenceFlow_19</bpmn:incoming>
       <bpmn:outgoing>sequenceFlow_22</bpmn:outgoing>
@@ -78,7 +78,7 @@
       <bpmn:incoming>sequenceFlow_21</bpmn:incoming>
       <bpmn:outgoing>sequenceFlow_9</bpmn:outgoing>
     </bpmn:task>
-    <bpmn:task id="task_9" name="Notify customer about delay">
+    <bpmn:task id="task_9" name="task_9">
       <bpmn:incoming>sequenceFlow_11</bpmn:incoming>
       <bpmn:outgoing>sequenceFlow_19</bpmn:outgoing>
     </bpmn:task>
@@ -103,12 +103,12 @@
     <bpmn:sequenceFlow id="sequenceFlow_15" name="If insurance&#10;necessary" sourceRef="inclusiveGateway_1" targetRef="task_1" />
     <bpmn:sequenceFlow id="sequenceFlow_16" name="always" sourceRef="inclusiveGateway_1" targetRef="task_3" />
     <bpmn:sequenceFlow id="sequenceFlow_17" name="" sourceRef="exclusiveGateway_2" targetRef="parallelGateway_2" />
-    <bpmn:sequenceFlow id="sequenceFlow_18" name="" sourceRef="task_7" targetRef="inclusiveGateway_3" />
-    <bpmn:sequenceFlow id="sequenceFlow_19" name="" sourceRef="task_9" targetRef="inclusiveGateway_3" />
+    <bpmn:sequenceFlow id="sequenceFlow_18" name="" sourceRef="task_7" targetRef="gw_3" />
+    <bpmn:sequenceFlow id="sequenceFlow_19" name="" sourceRef="task_9" targetRef="gw_3" />
     <bpmn:sequenceFlow id="sequenceFlow_20" name="" sourceRef="parallelGateway_2" targetRef="task_10" />
     <bpmn:sequenceFlow id="sequenceFlow_21" name="" sourceRef="task_10" targetRef="task_8" />
 <!-- This flow when included the layouter fails due to missing element from the grid -->
-    <bpmn:sequenceFlow id="sequenceFlow_22" name="" sourceRef="inclusiveGateway_3" targetRef="parallelGateway_2" />
+    <bpmn:sequenceFlow id="sequenceFlow_22" name="" sourceRef="gw_3" targetRef="parallelGateway_2" />
 <!-- --> -->
   </bpmn:process>
 </bpmn:definitions>
