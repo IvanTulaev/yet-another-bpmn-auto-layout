@@ -1,7 +1,7 @@
 {
   "name": "yet-another-bpmn-auto-layout",
-  "version": "0.0.3",
-  "description": "Layout BPMN diagrams, generating missing DI information",
+  "version": "0.0.4",
+  "description": "YABAL - Yet Another BPMN Auto Layout. Layout BPMN diagrams and generate missing DI information",
   "type": "module",
   "exports": {
     ".": {
@@ -26,7 +26,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/IvanTulaev/bpmn-auto-layout-feat-IvanTulaev.git"
+    "url": "git+https://github.com/IvanTulaev/yet-another-bpmn-auto-layout.git"
   },
   "keywords": [
     "bpmn",
@@ -38,7 +38,7 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/IvanTulaev/bpmn-auto-layout-feat-IvanTulaev/issues"
+    "url": "https://github.com/IvanTulaev/yet-another-bpmn-auto-layout/issues"
   },
   "homepage": "https://github.com/IvanTulaev",
   "dependencies": {
