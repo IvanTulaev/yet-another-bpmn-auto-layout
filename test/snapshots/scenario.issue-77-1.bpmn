@@ -73,10 +73,6 @@
       <bpmndi:BPMNShape id="Event_0gld64s_di" bpmnElement="Event_0gld64s">
         <dc:Bounds x="957" y="192" width="36" height="36" />
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNEdge id="Flow_01v1qrl_di" bpmnElement="Flow_01v1qrl">
-        <di:waypoint x="875" y="210" />
-        <di:waypoint x="957" y="210" />
-      </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="Flow_1dlway1_di" bpmnElement="Flow_1dlway1">
         <di:waypoint x="93" y="70" />
         <di:waypoint x="175" y="70" />
@@ -85,27 +81,31 @@
         <di:waypoint x="275" y="70" />
         <di:waypoint x="350" y="70" />
       </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_1ee7lmu_di" bpmnElement="Flow_1ee7lmu">
+        <di:waypoint x="400" y="70" />
+        <di:waypoint x="650" y="70" />
+      </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="Flow_1jh3tmj_di" bpmnElement="Flow_1jh3tmj">
         <di:waypoint x="375" y="95" />
         <di:waypoint x="375" y="210" />
         <di:waypoint x="507" y="210" />
       </bpmndi:BPMNEdge>
-      <bpmndi:BPMNEdge id="Flow_1ee7lmu_di" bpmnElement="Flow_1ee7lmu">
-        <di:waypoint x="400" y="70" />
-        <di:waypoint x="650" y="70" />
+      <bpmndi:BPMNEdge id="Flow_1cks4v6_di" bpmnElement="Flow_1cks4v6">
+        <di:waypoint x="700" y="70" />
+        <di:waypoint x="775" y="70" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="Flow_08xsb9m_di" bpmnElement="Flow_08xsb9m">
         <di:waypoint x="675" y="95" />
         <di:waypoint x="675" y="210" />
         <di:waypoint x="775" y="210" />
       </bpmndi:BPMNEdge>
-      <bpmndi:BPMNEdge id="Flow_1cks4v6_di" bpmnElement="Flow_1cks4v6">
-        <di:waypoint x="700" y="70" />
-        <di:waypoint x="775" y="70" />
-      </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="Flow_1phvbf2_di" bpmnElement="Flow_1phvbf2">
         <di:waypoint x="875" y="70" />
         <di:waypoint x="957" y="70" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_01v1qrl_di" bpmnElement="Flow_01v1qrl">
+        <di:waypoint x="875" y="210" />
+        <di:waypoint x="957" y="210" />
       </bpmndi:BPMNEdge>
     </bpmndi:BPMNPlane>
   </bpmndi:BPMNDiagram>

@@ -64,6 +64,10 @@
         <di:waypoint x="225" y="210" />
         <di:waypoint x="225" y="110" />
       </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_2_di" bpmnElement="Flow_2">
+        <di:waypoint x="275" y="70" />
+        <di:waypoint x="475" y="70" />
+      </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="DataOutputAssociation_2_di" bpmnElement="DataOutputAssociation_2">
         <di:waypoint x="225" y="110" />
         <di:waypoint x="225" y="210" />
@@ -73,10 +77,6 @@
         <di:waypoint x="393" y="210" />
         <di:waypoint x="525" y="210" />
         <di:waypoint x="525" y="110" />
-      </bpmndi:BPMNEdge>
-      <bpmndi:BPMNEdge id="Flow_2_di" bpmnElement="Flow_2">
-        <di:waypoint x="275" y="70" />
-        <di:waypoint x="475" y="70" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="Flow_3_di" bpmnElement="Flow_3">
         <di:waypoint x="575" y="70" />

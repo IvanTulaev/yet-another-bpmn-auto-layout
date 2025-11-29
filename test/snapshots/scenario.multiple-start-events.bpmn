@@ -120,14 +120,41 @@
         <di:waypoint x="425" y="70" />
         <di:waypoint x="650" y="70" />
       </bpmndi:BPMNEdge>
-      <bpmndi:BPMNEdge id="SequenceFlow_0mqlfwc_di" bpmnElement="SequenceFlow_0mqlfwc">
-        <di:waypoint x="700" y="70" />
-        <di:waypoint x="807" y="70" />
-      </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="SequenceFlow_1vaxhtr_di" bpmnElement="SequenceFlow_1vaxhtr">
         <di:waypoint x="575" y="210" />
         <di:waypoint x="675" y="210" />
         <di:waypoint x="675" y="95" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="SequenceFlow_0mqlfwc_di" bpmnElement="SequenceFlow_0mqlfwc">
+        <di:waypoint x="700" y="70" />
+        <di:waypoint x="807" y="70" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="SequenceFlow_0l8swrx_di" bpmnElement="SequenceFlow_0l8swrx">
+        <di:waypoint x="93" y="210" />
+        <di:waypoint x="175" y="210" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="SequenceFlow_1iezx13_di" bpmnElement="SequenceFlow_1iezx13">
+        <di:waypoint x="275" y="210" />
+        <di:waypoint x="350" y="210" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="SequenceFlow_0z2rqfm_di" bpmnElement="SequenceFlow_0z2rqfm">
+        <di:waypoint x="400" y="210" />
+        <di:waypoint x="475" y="210" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="SequenceFlow_0rrmq0f_di" bpmnElement="SequenceFlow_0rrmq0f">
+        <di:waypoint x="375" y="235" />
+        <di:waypoint x="375" y="490" />
+        <di:waypoint x="475" y="490" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="SequenceFlow_0dx7s2k_di" bpmnElement="SequenceFlow_0dx7s2k">
+        <di:waypoint x="525" y="250" />
+        <di:waypoint x="525" y="350" />
+        <di:waypoint x="625" y="350" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="SequenceFlow_0qyce9w_di" bpmnElement="SequenceFlow_0qyce9w">
+        <di:waypoint x="575" y="490" />
+        <di:waypoint x="675" y="490" />
+        <di:waypoint x="675" y="390" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="SequenceFlow_0gwz9h9_di" bpmnElement="SequenceFlow_0gwz9h9">
         <di:waypoint x="725" y="350" />
@@ -137,33 +164,6 @@
         <di:waypoint x="93" y="630" />
         <di:waypoint x="525" y="630" />
         <di:waypoint x="525" y="530" />
-      </bpmndi:BPMNEdge>
-      <bpmndi:BPMNEdge id="SequenceFlow_0qyce9w_di" bpmnElement="SequenceFlow_0qyce9w">
-        <di:waypoint x="575" y="490" />
-        <di:waypoint x="675" y="490" />
-        <di:waypoint x="675" y="390" />
-      </bpmndi:BPMNEdge>
-      <bpmndi:BPMNEdge id="SequenceFlow_0dx7s2k_di" bpmnElement="SequenceFlow_0dx7s2k">
-        <di:waypoint x="525" y="250" />
-        <di:waypoint x="525" y="350" />
-        <di:waypoint x="625" y="350" />
-      </bpmndi:BPMNEdge>
-      <bpmndi:BPMNEdge id="SequenceFlow_0rrmq0f_di" bpmnElement="SequenceFlow_0rrmq0f">
-        <di:waypoint x="375" y="235" />
-        <di:waypoint x="375" y="490" />
-        <di:waypoint x="475" y="490" />
-      </bpmndi:BPMNEdge>
-      <bpmndi:BPMNEdge id="SequenceFlow_0z2rqfm_di" bpmnElement="SequenceFlow_0z2rqfm">
-        <di:waypoint x="400" y="210" />
-        <di:waypoint x="475" y="210" />
-      </bpmndi:BPMNEdge>
-      <bpmndi:BPMNEdge id="SequenceFlow_1iezx13_di" bpmnElement="SequenceFlow_1iezx13">
-        <di:waypoint x="275" y="210" />
-        <di:waypoint x="350" y="210" />
-      </bpmndi:BPMNEdge>
-      <bpmndi:BPMNEdge id="SequenceFlow_0l8swrx_di" bpmnElement="SequenceFlow_0l8swrx">
-        <di:waypoint x="93" y="210" />
-        <di:waypoint x="175" y="210" />
       </bpmndi:BPMNEdge>
     </bpmndi:BPMNPlane>
   </bpmndi:BPMNDiagram>
