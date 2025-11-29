@@ -1,6 +1,6 @@
 {
   "name": "yet-another-bpmn-auto-layout",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "YABAL - Yet Another BPMN Auto Layout. Layout BPMN diagrams and generate missing DI information",
   "type": "module",
   "exports": {
@@ -43,7 +43,7 @@
   "homepage": "https://github.com/IvanTulaev",
   "dependencies": {
     "bpmn-moddle": "^9.0.1",
-    "graph-by-ivan-tulaev": "^1.0.0-alpha.6",
+    "graph-by-ivan-tulaev": "^1.0.0-alpha.14",
     "min-dash": "^4.1.1"
   },
   "devDependencies": {
