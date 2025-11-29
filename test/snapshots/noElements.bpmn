@@ -162,14 +162,14 @@
       <bpmndi:BPMNShape id="task_7_di" bpmnElement="task_7">
         <dc:Bounds x="325" y="450" width="100" height="80" />
       </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="boundaryEvent_1_di" bpmnElement="boundaryEvent_1">
+        <dc:Bounds x="357" y="512" width="36" height="36" />
+      </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="gw_3_di" bpmnElement="gw_3">
         <dc:Bounds x="650" y="465" width="50" height="50" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="task_9_di" bpmnElement="task_9">
         <dc:Bounds x="475" y="590" width="100" height="80" />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="boundaryEvent_1_di" bpmnElement="boundaryEvent_1">
-        <dc:Bounds x="357" y="512" width="36" height="36" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNEdge id="sequenceFlow_16_di" bpmnElement="sequenceFlow_16">
         <di:waypoint x="825" y="235" />

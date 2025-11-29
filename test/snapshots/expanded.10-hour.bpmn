@@ -128,6 +128,9 @@
       <bpmndi:BPMNShape id="Activity_0hmfnct_di" bpmnElement="Activity_0hmfnct" isExpanded="true">
         <dc:Bounds x="475" y="1150" width="250" height="220" />
       </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Event_0nsrwl3_di" bpmnElement="Event_0nsrwl3">
+        <dc:Bounds x="582" y="1352" width="36" height="36" />
+      </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Event_0o6udom_di" bpmnElement="Event_0o6udom">
         <dc:Bounds x="57" y="1452" width="36" height="36" />
       </bpmndi:BPMNShape>
@@ -142,9 +145,6 @@
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Activity_0esd9uc_di" bpmnElement="Activity_0esd9uc" isExpanded="true">
         <dc:Bounds x="325" y="1710" width="250" height="220" />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Event_0nsrwl3_di" bpmnElement="Event_0nsrwl3">
-        <dc:Bounds x="582" y="1352" width="36" height="36" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Event_144qbeh_di" bpmnElement="Event_144qbeh">
         <dc:Bounds x="432" y="1912" width="36" height="36" />

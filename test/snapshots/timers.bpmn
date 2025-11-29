@@ -92,6 +92,9 @@
       <bpmndi:BPMNShape id="task_1_di" bpmnElement="task_1">
         <dc:Bounds x="175" y="30" width="100" height="80" />
       </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="be_1_di" bpmnElement="be_1">
+        <dc:Bounds x="207" y="92" width="36" height="36" />
+      </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="gw_1_di" bpmnElement="gw_1" isMarkerVisible="true">
         <dc:Bounds x="350" y="45" width="50" height="50" />
       </bpmndi:BPMNShape>
@@ -101,11 +104,17 @@
       <bpmndi:BPMNShape id="task_3_di" bpmnElement="task_3">
         <dc:Bounds x="775" y="30" width="100" height="80" />
       </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="be_2_di" bpmnElement="be_2">
+        <dc:Bounds x="807" y="92" width="36" height="36" />
+      </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="gw_2_di" bpmnElement="gw_2" isMarkerVisible="true">
         <dc:Bounds x="950" y="45" width="50" height="50" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="task_4_di" bpmnElement="task_4">
         <dc:Bounds x="1375" y="30" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="be_3_di" bpmnElement="be_3">
+        <dc:Bounds x="1407" y="92" width="36" height="36" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="task_5_di" bpmnElement="task_5">
         <dc:Bounds x="1525" y="30" width="100" height="80" />
@@ -127,15 +136,6 @@
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="end_4_di" bpmnElement="end_4">
         <dc:Bounds x="1557" y="332" width="36" height="36" />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="be_1_di" bpmnElement="be_1">
-        <dc:Bounds x="207" y="92" width="36" height="36" />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="be_2_di" bpmnElement="be_2">
-        <dc:Bounds x="807" y="92" width="36" height="36" />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="be_3_di" bpmnElement="be_3">
-        <dc:Bounds x="1407" y="92" width="36" height="36" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNEdge id="ID_90660a4c_d786_49c2_8434_fbef251300f1_di" bpmnElement="ID_90660a4c_d786_49c2_8434_fbef251300f1">
         <di:waypoint x="1175" y="210" />
