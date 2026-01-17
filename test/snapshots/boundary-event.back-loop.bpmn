@@ -21,31 +21,31 @@
   </bpmn2:process>
   <bpmndi:BPMNDiagram id="BPMNDiagram_Process_1">
     <bpmndi:BPMNPlane id="BPMNPlane_Process_1" bpmnElement="Process_1">
-      <bpmndi:BPMNShape id="start_di" bpmnElement="start">
-        <dc:Bounds x="57" y="52" width="36" height="36" />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="gw_1_di" bpmnElement="gw_1" isMarkerVisible="true">
-        <dc:Bounds x="200" y="45" width="50" height="50" />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="task_1_di" bpmnElement="task_1">
-        <dc:Bounds x="325" y="30" width="100" height="80" />
-      </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="be_1_di" bpmnElement="be_1">
         <dc:Bounds x="357" y="92" width="36" height="36" />
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNEdge id="Flow_0ziamku_di" bpmnElement="Flow_0ziamku">
-        <di:waypoint x="93" y="70" />
-        <di:waypoint x="200" y="70" />
-      </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="SequenceFlow_0dimcke_di" bpmnElement="SequenceFlow_0dimcke">
         <di:waypoint x="375" y="128" />
         <di:waypoint x="375" y="140" />
         <di:waypoint x="225" y="140" />
         <di:waypoint x="225" y="95" />
       </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="task_1_di" bpmnElement="task_1">
+        <dc:Bounds x="325" y="30" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="gw_1_di" bpmnElement="gw_1" isMarkerVisible="true">
+        <dc:Bounds x="200" y="45" width="50" height="50" />
+      </bpmndi:BPMNShape>
       <bpmndi:BPMNEdge id="Flow_04suoda_di" bpmnElement="Flow_04suoda">
         <di:waypoint x="250" y="70" />
         <di:waypoint x="325" y="70" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="start_di" bpmnElement="start">
+        <dc:Bounds x="57" y="52" width="36" height="36" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="Flow_0ziamku_di" bpmnElement="Flow_0ziamku">
+        <di:waypoint x="93" y="70" />
+        <di:waypoint x="200" y="70" />
       </bpmndi:BPMNEdge>
     </bpmndi:BPMNPlane>
   </bpmndi:BPMNDiagram>

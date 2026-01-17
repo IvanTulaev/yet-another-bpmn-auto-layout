@@ -36,20 +36,20 @@
       <bpmndi:BPMNShape id="main_task_di" bpmnElement="main_task">
         <dc:Bounds x="175" y="30" width="100" height="80" />
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="main_end_di" bpmnElement="main_end">
-        <dc:Bounds x="357" y="52" width="36" height="36" />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="expanded_task_di" bpmnElement="expanded_task" isExpanded="true">
-        <dc:Bounds x="25" y="170" width="550" height="220" />
-      </bpmndi:BPMNShape>
       <bpmndi:BPMNEdge id="Flow_0lkj2lf_di" bpmnElement="Flow_0lkj2lf">
         <di:waypoint x="93" y="70" />
         <di:waypoint x="175" y="70" />
       </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="main_end_di" bpmnElement="main_end">
+        <dc:Bounds x="357" y="52" width="36" height="36" />
+      </bpmndi:BPMNShape>
       <bpmndi:BPMNEdge id="Flow_1wcolth_di" bpmnElement="Flow_1wcolth">
         <di:waypoint x="275" y="70" />
         <di:waypoint x="357" y="70" />
       </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="expanded_task_di" bpmnElement="expanded_task" isExpanded="true">
+        <dc:Bounds x="25" y="170" width="550" height="220" />
+      </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="sub_start_di" bpmnElement="sub_start">
         <dc:Bounds x="132" y="262" width="36" height="36" />
       </bpmndi:BPMNShape>

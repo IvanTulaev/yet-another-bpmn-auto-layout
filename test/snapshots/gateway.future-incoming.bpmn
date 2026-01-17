@@ -50,57 +50,57 @@
       <bpmndi:BPMNShape id="gw_1_di" bpmnElement="gw_1" isMarkerVisible="true">
         <dc:Bounds x="200" y="45" width="50" height="50" />
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="task_2_di" bpmnElement="task_2">
-        <dc:Bounds x="325" y="30" width="100" height="80" />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="gw_2_di" bpmnElement="gw_2" isMarkerVisible="true">
-        <dc:Bounds x="800" y="45" width="50" height="50" />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="end_di" bpmnElement="end">
-        <dc:Bounds x="957" y="52" width="36" height="36" />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="task__di" bpmnElement="task_">
-        <dc:Bounds x="325" y="170" width="100" height="80" />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="task_3_di" bpmnElement="task_3">
-        <dc:Bounds x="475" y="170" width="100" height="80" />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="task_4_di" bpmnElement="task_4">
-        <dc:Bounds x="625" y="170" width="100" height="80" />
-      </bpmndi:BPMNShape>
       <bpmndi:BPMNEdge id="Flow_0jex9t2_di" bpmnElement="Flow_0jex9t2">
         <di:waypoint x="93" y="70" />
         <di:waypoint x="200" y="70" />
       </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="task_2_di" bpmnElement="task_2">
+        <dc:Bounds x="325" y="30" width="100" height="80" />
+      </bpmndi:BPMNShape>
       <bpmndi:BPMNEdge id="Flow_1dkwsel_di" bpmnElement="Flow_1dkwsel">
         <di:waypoint x="250" y="70" />
         <di:waypoint x="325" y="70" />
       </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="task__di" bpmnElement="task_">
+        <dc:Bounds x="325" y="170" width="100" height="80" />
+      </bpmndi:BPMNShape>
       <bpmndi:BPMNEdge id="Flow_0os3n7r_di" bpmnElement="Flow_0os3n7r">
         <di:waypoint x="225" y="95" />
         <di:waypoint x="225" y="210" />
         <di:waypoint x="325" y="210" />
       </bpmndi:BPMNEdge>
-      <bpmndi:BPMNEdge id="Flow_1eqfyy9_di" bpmnElement="Flow_1eqfyy9">
-        <di:waypoint x="425" y="70" />
-        <di:waypoint x="800" y="70" />
+      <bpmndi:BPMNShape id="task_3_di" bpmnElement="task_3">
+        <dc:Bounds x="475" y="170" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="Flow_1yabdi4_di" bpmnElement="Flow_1yabdi4">
+        <di:waypoint x="425" y="210" />
+        <di:waypoint x="475" y="210" />
       </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="task_4_di" bpmnElement="task_4">
+        <dc:Bounds x="625" y="170" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="Flow_1l9x7zt_di" bpmnElement="Flow_1l9x7zt">
+        <di:waypoint x="575" y="210" />
+        <di:waypoint x="625" y="210" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="gw_2_di" bpmnElement="gw_2" isMarkerVisible="true">
+        <dc:Bounds x="800" y="45" width="50" height="50" />
+      </bpmndi:BPMNShape>
       <bpmndi:BPMNEdge id="Flow_085nst5_di" bpmnElement="Flow_085nst5">
         <di:waypoint x="725" y="210" />
         <di:waypoint x="825" y="210" />
         <di:waypoint x="825" y="95" />
       </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_1eqfyy9_di" bpmnElement="Flow_1eqfyy9">
+        <di:waypoint x="425" y="70" />
+        <di:waypoint x="800" y="70" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="end_di" bpmnElement="end">
+        <dc:Bounds x="957" y="52" width="36" height="36" />
+      </bpmndi:BPMNShape>
       <bpmndi:BPMNEdge id="Flow_14wnyk7_di" bpmnElement="Flow_14wnyk7">
         <di:waypoint x="850" y="70" />
         <di:waypoint x="957" y="70" />
-      </bpmndi:BPMNEdge>
-      <bpmndi:BPMNEdge id="Flow_1yabdi4_di" bpmnElement="Flow_1yabdi4">
-        <di:waypoint x="425" y="210" />
-        <di:waypoint x="475" y="210" />
-      </bpmndi:BPMNEdge>
-      <bpmndi:BPMNEdge id="Flow_1l9x7zt_di" bpmnElement="Flow_1l9x7zt">
-        <di:waypoint x="575" y="210" />
-        <di:waypoint x="625" y="210" />
       </bpmndi:BPMNEdge>
     </bpmndi:BPMNPlane>
   </bpmndi:BPMNDiagram>

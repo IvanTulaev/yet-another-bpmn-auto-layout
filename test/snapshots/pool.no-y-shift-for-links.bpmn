@@ -69,9 +69,6 @@
       <bpmndi:BPMNShape id="Event_0_di" bpmnElement="Event_0">
         <dc:Bounds x="132" y="122" width="36" height="36" />
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="gwo0_di" bpmnElement="gwo0" isMarkerVisible="true">
-        <dc:Bounds x="275" y="115" width="50" height="50" />
-      </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Task_1_di" bpmnElement="Task_1">
         <dc:Bounds x="400" y="100" width="100" height="80" />
       </bpmndi:BPMNShape>
@@ -80,6 +77,9 @@
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Event_3_di" bpmnElement="Event_3">
         <dc:Bounds x="732" y="122" width="36" height="36" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="gwo0_di" bpmnElement="gwo0" isMarkerVisible="true">
+        <dc:Bounds x="275" y="115" width="50" height="50" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNEdge id="SequenceFlow_Process_0_0_di" bpmnElement="SequenceFlow_Process_0_0">
         <di:waypoint x="300" y="165" />
@@ -106,9 +106,6 @@
       <bpmndi:BPMNShape id="Event_4_di" bpmnElement="Event_4">
         <dc:Bounds x="132" y="472" width="36" height="36" />
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="gwo1_di" bpmnElement="gwo1" isMarkerVisible="true">
-        <dc:Bounds x="275" y="465" width="50" height="50" />
-      </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Task_5_di" bpmnElement="Task_5">
         <dc:Bounds x="400" y="450" width="100" height="80" />
       </bpmndi:BPMNShape>
@@ -117,6 +114,9 @@
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Event_7_di" bpmnElement="Event_7">
         <dc:Bounds x="732" y="472" width="36" height="36" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="gwo1_di" bpmnElement="gwo1" isMarkerVisible="true">
+        <dc:Bounds x="275" y="465" width="50" height="50" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNEdge id="SequenceFlow_Process_1_0_di" bpmnElement="SequenceFlow_Process_1_0">
         <di:waypoint x="300" y="515" />
