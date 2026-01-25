@@ -6,6 +6,7 @@ Create and layout the graphical representation of a BPMN diagram.
 
 ## Differences with original repository
 
+* First level lanes are drawn in pools
 * Given a collaboration **ALL** participant's process will be laid out.
 * **Collapsed** and **expanded sub-processes** has different layout.
 * Independent graphs of process are laid out on different grid lines.
@@ -32,7 +33,7 @@ console.log(diagramWithLayoutXML);
 * The following elements are not laid out:
   * Groups
   * Text annotations
-  * Lanes
+  * Lanes under first level
 
 ## Resources
 

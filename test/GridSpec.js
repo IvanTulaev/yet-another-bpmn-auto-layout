@@ -117,14 +117,14 @@ describe('Grid', () => {
     it('should not move element to invalid position', () => {
       const originalPosition = grid.find('element1');
       assert.throws(() => grid.move('element1', [-1, -1]),
-          (error) => error.message === `Cannot move element element1 to invalid position -1,-1`
+          (error) => error.message === `Cannot move element "element1" to invalid position -1,-1`
       );
       assert.deepStrictEqual(grid.find('element1'), originalPosition);
     });
 
     it('should do nothing when moving non-existent element', () => {
       assert.throws(() => grid.move('non-existent', [1, 1]),
-          (error) => error.message === `Cannot move element not exist element non-existent`
+          (error) => error.message === `Cannot move not exist element "non-existent"`
       );
     });
   });
