@@ -8,7 +8,7 @@
   },
   "devDependencies": {
     "babel-loader": "^10.0.0",
-    "bpmn-js": "^17.11.1",
+    "bpmn-js": "^18.10.1",
     "css-loader": "^7.1.2",
     "downloadjs": "^1.4.7",
     "file-drops-safary-compatible": "^0.6.1",

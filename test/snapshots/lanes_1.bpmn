@@ -28,11 +28,11 @@
       <bpmndi:BPMNShape id="Participant_02wszbl_di" bpmnElement="Participant_02wszbl">
         <dc:Bounds x="0" y="0" width="450" height="560" />
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Lane_1h9zaf7_di" bpmnElement="Lane_1h9zaf7">
-        <dc:Bounds x="30" y="0" width="420" height="280" />
-      </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Lane_0kzc03n_di" bpmnElement="Lane_0kzc03n">
         <dc:Bounds x="30" y="280" width="420" height="280" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Lane_1h9zaf7_di" bpmnElement="Lane_1h9zaf7">
+        <dc:Bounds x="30" y="0" width="420" height="280" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Event_0aq4902_di" bpmnElement="Event_0aq4902">
         <dc:Bounds x="132" y="122" width="36" height="36" />

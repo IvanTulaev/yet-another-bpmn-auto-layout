@@ -72,17 +72,17 @@
       <bpmndi:BPMNShape id="pool_3_di" bpmnElement="pool_3">
         <dc:Bounds x="0" y="1500" width="600" height="280" />
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="lane_1_di" bpmnElement="lane_1">
-        <dc:Bounds x="30" y="0" width="720" height="280" />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="lane_2_di" bpmnElement="lane_2">
-        <dc:Bounds x="30" y="280" width="720" height="420" />
+      <bpmndi:BPMNShape id="lane_0_di" bpmnElement="lane_0">
+        <dc:Bounds x="30" y="980" width="720" height="280" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="lane_3_di" bpmnElement="lane_3">
         <dc:Bounds x="30" y="700" width="720" height="280" />
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="lane_0_di" bpmnElement="lane_0">
-        <dc:Bounds x="30" y="980" width="720" height="280" />
+      <bpmndi:BPMNShape id="lane_2_di" bpmnElement="lane_2">
+        <dc:Bounds x="30" y="280" width="720" height="420" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="lane_1_di" bpmnElement="lane_1">
+        <dc:Bounds x="30" y="0" width="720" height="280" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="end_di" bpmnElement="end">
         <dc:Bounds x="432" y="542" width="36" height="36" />
