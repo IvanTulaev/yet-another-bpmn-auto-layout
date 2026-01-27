@@ -1,4 +1,4 @@
-# bpmn-auto-layout-feat-ivan-tulaev
+# YABAL - Yet Another BPMN Auto Layout
 
 Create and layout the graphical representation of a BPMN diagram.
 
@@ -6,7 +6,7 @@ Create and layout the graphical representation of a BPMN diagram.
 
 ## Differences with original repository
 
-* First level lanes are drawn in pools
+* **Lanes** at all levels are drawn in pools
 * Given a collaboration **ALL** participant's process will be laid out.
 * **Collapsed** and **expanded sub-processes** has different layout.
 * Independent graphs of process are laid out on different grid lines.
@@ -30,10 +30,10 @@ console.log(diagramWithLayoutXML);
 
 ## Limitations
 
-* The following elements are not laid out:
-  * Groups
+The following elements are not laid out:
+  * Data Associations between processes
   * Text annotations
-  * Lanes under first level
+  * Groups
 
 ## Resources
 
