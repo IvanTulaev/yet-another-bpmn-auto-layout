@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:modeler="http://camunda.org/schema/modeler/1.0" xmlns:camunda="http://camunda.org/schema/1.0/bpmn" id="Definitions_01p3jf9" targetNamespace="http://bpmn.io/schema/bpmn" exporter="Camunda Modeler" exporterVersion="5.43.1" modeler:executionPlatform="Camunda Cloud" modeler:executionPlatformVersion="8.0.0" camunda:diagramRelationId="a0d0615c-3547-410d-a6d0-e0f5f7c190e8">
+  <bpmn:error id="Error_0gyjhl0" name="ErrorInData" errorCode="ErrorInData" />
+  <bpmn:error id="Error_0df5ic3" name="FailedToCreateRecord" errorCode="FailedToCreateRecord" />
+  <bpmn:error id="Error_0u57r6m" name="ProblemProcessingData" errorCode="ProblemProcessingData" />
+  <bpmn:process id="Process_1bwlvb5" isExecutable="false">
+    <bpmn:subProcess id="task_0" name="task_0">
+      <bpmn:subProcess id="task_1" name="task_1">
+        <bpmn:subProcess id="task_2" name="task_2">
+          <bpmn:subProcess id="task_3" name="task_3" />
+        </bpmn:subProcess>
+      </bpmn:subProcess>
+    </bpmn:subProcess>
+  </bpmn:process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_Process_1bwlvb5">
+    <bpmndi:BPMNPlane id="BPMNPlane_Process_1bwlvb5" bpmnElement="Process_1bwlvb5">
+      <bpmndi:BPMNShape id="task_0_di" bpmnElement="task_0" isExpanded="true">
+        <dc:Bounds x="25" y="30" width="700" height="640" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="task_1_di" bpmnElement="task_1" isExpanded="true">
+        <dc:Bounds x="100" y="100" width="550" height="500" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="task_2_di" bpmnElement="task_2" isExpanded="true">
+        <dc:Bounds x="175" y="170" width="400" height="360" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="task_3_di" bpmnElement="task_3" isExpanded="true">
+        <dc:Bounds x="250" y="240" width="250" height="220" />
+      </bpmndi:BPMNShape>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn:definitions>
