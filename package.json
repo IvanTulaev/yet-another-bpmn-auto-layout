@@ -1,6 +1,6 @@
 {
   "name": "yet-another-bpmn-auto-layout",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "YABAL - Yet Another BPMN Auto Layout. Layout BPMN diagrams and generate missing DI information",
   "type": "module",
   "exports": {
