@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:zeebe="http://camunda.org/schema/zeebe/1.0" xmlns:modeler="http://camunda.org/schema/modeler/1.0" xmlns:camunda="http://camunda.org/schema/1.0/bpmn" id="Definitions_01p3jf9" targetNamespace="http://bpmn.io/schema/bpmn" exporter="Camunda Modeler" exporterVersion="5.35.0" modeler:executionPlatform="Camunda Cloud" modeler:executionPlatformVersion="8.0.0" camunda:diagramRelationId="a0d0615c-3547-410d-a6d0-e0f5f7c190e8">
+  <bpmn:collaboration id="Collaboration_0">
+    <bpmn:participant id="pool_0" name="pool_0" processRef="proc_0" />
+  </bpmn:collaboration>
+  <bpmn:process id="proc_0" name="proc_0" isExecutable="false">
+    <bpmn:laneSet id="laneSet_0">
+      <bpmn:lane id="lane_0" name="lane_0" />
+      <bpmn:lane id="lane_1" name="lane_1" />
+    </bpmn:laneSet>
+    <bpmn:dataObjectReference id="DataObject_0" name="DataObject_0" dataObjectRef="DataObject_0grkb5c" />
+    <bpmn:dataObject id="DataObject_0grkb5c" />
+    <bpmn:dataStoreReference id="DataStore_0" name="DataStore_0" />
+  </bpmn:process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_Collaboration_0">
+    <bpmndi:BPMNPlane id="BPMNPlane_Collaboration_0" bpmnElement="Collaboration_0">
+      <bpmndi:BPMNShape id="pool_0_di" bpmnElement="pool_0">
+        <dc:Bounds x="0" y="0" width="360" height="700" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="lane_1_di" bpmnElement="lane_1">
+        <dc:Bounds x="30" y="420" width="330" height="280" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="lane_0_di" bpmnElement="lane_0">
+        <dc:Bounds x="30" y="0" width="330" height="420" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="DataObject_0_di" bpmnElement="DataObject_0">
+        <dc:Bounds x="192" y="115" width="36" height="50" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="DataStore_0_di" bpmnElement="DataStore_0">
+        <dc:Bounds x="185" y="255" width="50" height="50" />
+      </bpmndi:BPMNShape>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn:definitions>

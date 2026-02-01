@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:modeler="http://camunda.org/schema/modeler/1.0" id="Definitions_0lfpdug" targetNamespace="http://bpmn.io/schema/bpmn" exporter="Camunda Modeler" exporterVersion="5.43.1" modeler:executionPlatform="Camunda Platform" modeler:executionPlatformVersion="7.23.0">
+  <bpmn:collaboration id="Collaboration_0g7ujl5">
+    <bpmn:participant id="pool_0" name="pool_0" processRef="Process_pool_0" />
+    <bpmn:participant id="pool_1" name="pool_1" processRef="Process_pool_1" />
+  </bpmn:collaboration>
+  <bpmn:process id="Process_pool_0" isExecutable="true">
+    <bpmn:laneSet id="LaneSet_1txdias">
+      <bpmn:lane id="lane_0_0" name="lane_0_0">
+        <bpmn:flowNodeRef>start_0</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>task_0</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>end_0</bpmn:flowNodeRef>
+      </bpmn:lane>
+      <bpmn:lane id="lane_0_1" name="lane_0_1" />
+    </bpmn:laneSet>
+    <bpmn:dataStoreReference id="DataStoreReference_0z8233e" />
+    <bpmn:startEvent id="start_0" name="start_0">
+      <bpmn:outgoing>Flow_0weg5n5</bpmn:outgoing>
+    </bpmn:startEvent>
+    <bpmn:task id="task_0" name="task_0">
+      <bpmn:incoming>Flow_0weg5n5</bpmn:incoming>
+      <bpmn:outgoing>Flow_1f43km8</bpmn:outgoing>
+      <bpmn:dataOutputAssociation id="DataOutputAssociation_09svrzm">
+        <bpmn:targetRef>DataStoreReference_0z8233e</bpmn:targetRef>
+      </bpmn:dataOutputAssociation>
+    </bpmn:task>
+    <bpmn:endEvent id="end_0" name="end_0">
+      <bpmn:incoming>Flow_1f43km8</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:sequenceFlow id="Flow_0weg5n5" sourceRef="start_0" targetRef="task_0" />
+    <bpmn:sequenceFlow id="Flow_1f43km8" sourceRef="task_0" targetRef="end_0" />
+  </bpmn:process>
+  <bpmn:process id="Process_pool_1" isExecutable="false">
+    <bpmn:laneSet id="LaneSet_17qjuv8">
+      <bpmn:lane id="lane_1_0" name="lane_1_0" />
+      <bpmn:lane id="lane_1_1" name="lane_1_1">
+        <bpmn:flowNodeRef>task_1</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>end_1</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>start_1</bpmn:flowNodeRef>
+      </bpmn:lane>
+    </bpmn:laneSet>
+    <bpmn:sequenceFlow id="Flow_0m8xk1o" sourceRef="start_1" targetRef="task_1" />
+    <bpmn:sequenceFlow id="Flow_09qt4l4" sourceRef="task_1" targetRef="end_1" />
+    <bpmn:task id="task_1" name="task_1">
+      <bpmn:incoming>Flow_0m8xk1o</bpmn:incoming>
+      <bpmn:outgoing>Flow_09qt4l4</bpmn:outgoing>
+      <bpmn:dataOutputAssociation id="DataOutputAssociation_1gj31m8">
+        <bpmn:targetRef>DataStoreReference_0z8233e</bpmn:targetRef>
+      </bpmn:dataOutputAssociation>
+    </bpmn:task>
+    <bpmn:endEvent id="end_1" name="end_1">
+      <bpmn:incoming>Flow_09qt4l4</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:startEvent id="start_1" name="start_1">
+      <bpmn:outgoing>Flow_0m8xk1o</bpmn:outgoing>
+    </bpmn:startEvent>
+  </bpmn:process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_Collaboration_0g7ujl5">
+    <bpmndi:BPMNPlane id="BPMNPlane_Collaboration_0g7ujl5" bpmnElement="Collaboration_0g7ujl5">
+      <bpmndi:BPMNShape id="pool_0_di" bpmnElement="pool_0">
+        <dc:Bounds x="0" y="0" width="660" height="700" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="lane_0_1_di" bpmnElement="lane_0_1">
+        <dc:Bounds x="30" y="420" width="630" height="280" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="lane_0_0_di" bpmnElement="lane_0_0">
+        <dc:Bounds x="30" y="0" width="630" height="420" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="pool_1_di" bpmnElement="pool_1">
+        <dc:Bounds x="0" y="770" width="660" height="560" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="lane_1_1_di" bpmnElement="lane_1_1">
+        <dc:Bounds x="30" y="1050" width="630" height="280" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="lane_1_0_di" bpmnElement="lane_1_0">
+        <dc:Bounds x="30" y="770" width="630" height="280" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="DataOutputAssociation_09svrzm_di" bpmnElement="DataOutputAssociation_09svrzm">
+        <di:waypoint x="360" y="180" />
+        <di:waypoint x="360" y="280" />
+        <di:waypoint x="485" y="280" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="DataStoreReference_0z8233e_di" bpmnElement="DataStoreReference_0z8233e">
+        <dc:Bounds x="485" y="255" width="50" height="50" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="start_0_di" bpmnElement="start_0">
+        <dc:Bounds x="192" y="122" width="36" height="36" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="task_0_di" bpmnElement="task_0">
+        <dc:Bounds x="310" y="100" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="end_0_di" bpmnElement="end_0">
+        <dc:Bounds x="492" y="122" width="36" height="36" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="Flow_0weg5n5_di" bpmnElement="Flow_0weg5n5">
+        <di:waypoint x="228" y="140" />
+        <di:waypoint x="310" y="140" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_1f43km8_di" bpmnElement="Flow_1f43km8">
+        <di:waypoint x="410" y="140" />
+        <di:waypoint x="492" y="140" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_0m8xk1o_di" bpmnElement="Flow_0m8xk1o">
+        <di:waypoint x="228" y="1190" />
+        <di:waypoint x="310" y="1190" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_09qt4l4_di" bpmnElement="Flow_09qt4l4">
+        <di:waypoint x="410" y="1190" />
+        <di:waypoint x="492" y="1190" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="task_1_di" bpmnElement="task_1">
+        <dc:Bounds x="310" y="1150" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="end_1_di" bpmnElement="end_1">
+        <dc:Bounds x="492" y="1172" width="36" height="36" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="start_1_di" bpmnElement="start_1">
+        <dc:Bounds x="192" y="1172" width="36" height="36" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge bpmnElement="DataOutputAssociation_1gj31m8">
+        <di:waypoint x="360" y="1150" />
+        <di:waypoint x="510" y="305" />
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn:definitions>

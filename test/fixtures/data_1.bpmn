@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:modeler="http://camunda.org/schema/modeler/1.0" id="Definitions_1h5sh91" targetNamespace="http://bpmn.io/schema/bpmn" exporter="Camunda Modeler" exporterVersion="5.43.1" modeler:executionPlatform="Camunda Cloud" modeler:executionPlatformVersion="8.8.0">
+  <bpmn:collaboration id="Collaboration_0">
+    <bpmn:participant id="pool_0" name="pool_0" processRef="Process_0" />
+    <bpmn:participant id="pool_1" name="pool_1" processRef="Process_1" />
+  </bpmn:collaboration>
+  <bpmn:process id="Process_0" name="Process_0" isExecutable="true">
+    <bpmn:startEvent id="start_0" name="start_0">
+      <bpmn:dataOutputAssociation id="DataOutputAssociation_1jryx7u">
+        <bpmn:targetRef>DataStoreReference_0</bpmn:targetRef>
+      </bpmn:dataOutputAssociation>
+      <bpmn:dataOutputAssociation id="DataOutputAssociation_0jvymj0">
+        <bpmn:targetRef>DataStoreReference_1</bpmn:targetRef>
+      </bpmn:dataOutputAssociation>
+    </bpmn:startEvent>
+    <bpmn:dataStoreReference id="DataStoreReference_0" name="DataStoreReference_0" />
+    <bpmn:subProcess id="expanded_0" name="expanded_0">
+      <bpmn:startEvent id="start_1" name="start_1">
+        <bpmn:dataOutputAssociation id="DataOutputAssociation_1m0v01n">
+          <bpmn:targetRef>DataStoreReference_1</bpmn:targetRef>
+        </bpmn:dataOutputAssociation>
+      </bpmn:startEvent>
+      <bpmn:dataStoreReference id="DataStoreReference_1" name="DataStoreReference_1" />
+    </bpmn:subProcess>
+  </bpmn:process>
+  <bpmn:process id="Process_1" name="Process_1" isExecutable="false">
+    <bpmn:startEvent id="Event_0d9frkr" name="start_2">
+      <bpmn:dataOutputAssociation id="DataOutputAssociation_1w7vmka">
+        <bpmn:targetRef>DataStoreReference_2</bpmn:targetRef>
+      </bpmn:dataOutputAssociation>
+    </bpmn:startEvent>
+    <bpmn:dataStoreReference id="DataStoreReference_2" name="DataStoreReference_2" />
+  </bpmn:process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_1">
+    <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="Collaboration_0">
+      <bpmndi:BPMNShape id="Participant_1ts64b2_di" bpmnElement="pool_0" isHorizontal="true">
+        <dc:Bounds x="160" y="40" width="300" height="260" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Event_03edz29_di" bpmnElement="start_0">
+        <dc:Bounds x="222" y="62" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="223" y="105" width="34" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="DataStoreReference_1u34jw9_di" bpmnElement="DataStoreReference_0">
+        <dc:Bounds x="325" y="55" width="50" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="309" y="112" width="83" height="27" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_0kinny2_di" bpmnElement="expanded_0" isExpanded="true">
+        <dc:Bounds x="210" y="140" width="230" height="140" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Event_0atmsiv_di" bpmnElement="start_1">
+        <dc:Bounds x="250" y="182" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="251" y="225" width="34" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="DataStoreReference_151u4iz_di" bpmnElement="DataStoreReference_1">
+        <dc:Bounds x="335" y="175" width="50" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="319" y="232" width="83" height="27" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Participant_1efls7o_di" bpmnElement="pool_1" isHorizontal="true">
+        <dc:Bounds x="160" y="340" width="300" height="150" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Event_0d9frkr_di" bpmnElement="Event_0d9frkr">
+        <dc:Bounds x="232" y="372" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="233" y="415" width="34" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="DataStoreReference_0cqb0at_di" bpmnElement="DataStoreReference_2">
+        <dc:Bounds x="335" y="365" width="50" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="319" y="422" width="83" height="27" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="DataOutputAssociation_1jryx7u_di" bpmnElement="DataOutputAssociation_1jryx7u">
+        <di:waypoint x="258" y="80" />
+        <di:waypoint x="325" y="80" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="DataOutputAssociation_1m0v01n_di" bpmnElement="DataOutputAssociation_1m0v01n">
+        <di:waypoint x="286" y="200" />
+        <di:waypoint x="335" y="200" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="DataOutputAssociation_1w7vmka_di" bpmnElement="DataOutputAssociation_1w7vmka">
+        <di:waypoint x="268" y="390" />
+        <di:waypoint x="335" y="390" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="DataOutputAssociation_0jvymj0_di" bpmnElement="DataOutputAssociation_0jvymj0">
+        <di:waypoint x="253" y="93" />
+        <di:waypoint x="335" y="175" />
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn:definitions>
