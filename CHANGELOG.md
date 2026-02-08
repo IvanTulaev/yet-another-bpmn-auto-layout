@@ -1,7 +1,9 @@
 # Changelog
 
-All notable changes to [bpmn-auto-layout-feat-IvanTulaev](https://github.com/IvanTulaev/bpmn-auto-layout-feat-IvanTulaev) are documented here. We use [semantic versioning](http://semver.org/) for releases.
+All notable changes to [yet-another-bpmn-auto-layout](https://github.com/IvanTulaev/yet-another-bpmn-auto-layout) are documented here. We use [semantic versioning](http://semver.org/) for releases.
 
-## 3.0.0-beta.1
+## 1.0.0
+- finally separated from the main Camunda repository [bpmn-auto-layout](https://github.com/bpmn-io/bpmn-auto-layout)
 
-- starts separation from the main repository by Camunda [bpmn-auto-layout](https://github.com/bpmn-io/bpmn-auto-layout)
+## 1.0.1
+- feat: bind dataRef element to first element lane
