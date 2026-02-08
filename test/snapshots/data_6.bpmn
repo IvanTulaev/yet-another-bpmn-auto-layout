@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:modeler="http://camunda.org/schema/modeler/1.0" id="Definitions_0lfpdug" targetNamespace="http://bpmn.io/schema/bpmn" exporter="Camunda Modeler" exporterVersion="5.43.1" modeler:executionPlatform="Camunda Platform" modeler:executionPlatformVersion="7.23.0">
+  <bpmn:collaboration id="Collaboration_19zo1xy">
+    <bpmn:participant id="Participant_0l3uiqd" processRef="Process_1c3xqvg" />
+  </bpmn:collaboration>
+  <bpmn:process id="Process_1c3xqvg">
+    <bpmn:laneSet id="LaneSet_1qk09oi">
+      <bpmn:lane id="Lane_1ujj0nw" name="Lane_0">
+        <bpmn:flowNodeRef>Event_0sscz62</bpmn:flowNodeRef>
+      </bpmn:lane>
+      <bpmn:lane id="Lane_14bnria" name="Lane_1">
+        <bpmn:flowNodeRef>Event_06qg1ak</bpmn:flowNodeRef>
+      </bpmn:lane>
+    </bpmn:laneSet>
+    <bpmn:startEvent id="Event_06qg1ak" name="start_1">
+      <bpmn:dataOutputAssociation id="DataOutputAssociation_0slos5p">
+        <bpmn:targetRef>DataStoreReference_0dkvapz</bpmn:targetRef>
+      </bpmn:dataOutputAssociation>
+    </bpmn:startEvent>
+    <bpmn:dataStoreReference id="DataStoreReference_0dkvapz" />
+    <bpmn:startEvent id="Event_0sscz62" name="start_0">
+      <bpmn:dataOutputAssociation id="DataOutputAssociation_1bvlxy0">
+        <bpmn:targetRef>DataStoreReference_0dkvapz</bpmn:targetRef>
+      </bpmn:dataOutputAssociation>
+    </bpmn:startEvent>
+  </bpmn:process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_Collaboration_19zo1xy">
+    <bpmndi:BPMNPlane id="BPMNPlane_Collaboration_19zo1xy" bpmnElement="Collaboration_19zo1xy">
+      <bpmndi:BPMNShape id="Participant_0l3uiqd_di" bpmnElement="Participant_0l3uiqd">
+        <dc:Bounds x="0" y="0" width="660" height="700" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Lane_14bnria_di" bpmnElement="Lane_14bnria">
+        <dc:Bounds x="30" y="280" width="630" height="420" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Lane_1ujj0nw_di" bpmnElement="Lane_1ujj0nw">
+        <dc:Bounds x="30" y="0" width="630" height="280" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="DataOutputAssociation_0slos5p_di" bpmnElement="DataOutputAssociation_0slos5p">
+        <di:waypoint x="360" y="438" />
+        <di:waypoint x="360" y="560" />
+        <di:waypoint x="485" y="560" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="DataOutputAssociation_1bvlxy0_di" bpmnElement="DataOutputAssociation_1bvlxy0">
+        <di:waypoint x="210" y="158" />
+        <di:waypoint x="210" y="560" />
+        <di:waypoint x="485" y="560" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="Event_06qg1ak_di" bpmnElement="Event_06qg1ak">
+        <dc:Bounds x="342" y="402" width="36" height="36" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="DataStoreReference_0dkvapz_di" bpmnElement="DataStoreReference_0dkvapz">
+        <dc:Bounds x="485" y="535" width="50" height="50" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Event_0sscz62_di" bpmnElement="Event_0sscz62">
+        <dc:Bounds x="192" y="122" width="36" height="36" />
+      </bpmndi:BPMNShape>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn:definitions>
