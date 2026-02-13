@@ -25,13 +25,13 @@
   </bpmn:process>
   <bpmndi:BPMNDiagram id="BPMNDiagram_Collaboration_1ycahv1">
     <bpmndi:BPMNPlane id="BPMNPlane_Collaboration_1ycahv1" bpmnElement="Collaboration_1ycahv1">
-      <bpmndi:BPMNShape id="Participant_02wszbl_di" bpmnElement="Participant_02wszbl">
+      <bpmndi:BPMNShape id="Participant_02wszbl_di" bpmnElement="Participant_02wszbl" isHorizontal="true">
         <dc:Bounds x="0" y="0" width="510" height="560" />
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Lane_0kzc03n_di" bpmnElement="Lane_0kzc03n">
+      <bpmndi:BPMNShape id="Lane_0kzc03n_di" bpmnElement="Lane_0kzc03n" isHorizontal="true">
         <dc:Bounds x="30" y="280" width="480" height="280" />
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Lane_1h9zaf7_di" bpmnElement="Lane_1h9zaf7">
+      <bpmndi:BPMNShape id="Lane_1h9zaf7_di" bpmnElement="Lane_1h9zaf7" isHorizontal="true">
         <dc:Bounds x="30" y="0" width="480" height="280" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Event_0aq4902_di" bpmnElement="Event_0aq4902">

@@ -60,22 +60,22 @@
   </bpmn2:process>
   <bpmndi:BPMNDiagram id="BPMNDiagram_Collaboration">
     <bpmndi:BPMNPlane id="BPMNPlane_Collaboration" bpmnElement="Collaboration">
-      <bpmndi:BPMNShape id="Participant_Process_0_di" bpmnElement="Participant_Process_0">
+      <bpmndi:BPMNShape id="Participant_Process_0_di" bpmnElement="Participant_Process_0" isHorizontal="true">
         <dc:Bounds x="0" y="0" width="900" height="280" />
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Participant_Process_1_di" bpmnElement="Participant_Process_1">
+      <bpmndi:BPMNShape id="Participant_Process_1_di" bpmnElement="Participant_Process_1" isHorizontal="true">
         <dc:Bounds x="0" y="350" width="900" height="280" />
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Event_0_di" bpmnElement="Event_0">
+      <bpmndi:BPMNShape id="Event_0_di" bpmnElement="Event_0" isMarkerVisible="false">
         <dc:Bounds x="132" y="122" width="36" height="36" />
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Task_1_di" bpmnElement="Task_1">
+      <bpmndi:BPMNShape id="Task_1_di" bpmnElement="Task_1" isMarkerVisible="false">
         <dc:Bounds x="400" y="100" width="100" height="80" />
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Task_2_di" bpmnElement="Task_2">
+      <bpmndi:BPMNShape id="Task_2_di" bpmnElement="Task_2" isMarkerVisible="false">
         <dc:Bounds x="550" y="100" width="100" height="80" />
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Event_3_di" bpmnElement="Event_3">
+      <bpmndi:BPMNShape id="Event_3_di" bpmnElement="Event_3" isMarkerVisible="false">
         <dc:Bounds x="732" y="122" width="36" height="36" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="gwo0_di" bpmnElement="gwo0" isMarkerVisible="true">
@@ -103,16 +103,16 @@
         <di:waypoint x="650" y="140" />
         <di:waypoint x="732" y="140" />
       </bpmndi:BPMNEdge>
-      <bpmndi:BPMNShape id="Event_4_di" bpmnElement="Event_4">
+      <bpmndi:BPMNShape id="Event_4_di" bpmnElement="Event_4" isMarkerVisible="false">
         <dc:Bounds x="132" y="472" width="36" height="36" />
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Task_5_di" bpmnElement="Task_5">
+      <bpmndi:BPMNShape id="Task_5_di" bpmnElement="Task_5" isMarkerVisible="false">
         <dc:Bounds x="400" y="450" width="100" height="80" />
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Task_6_di" bpmnElement="Task_6">
+      <bpmndi:BPMNShape id="Task_6_di" bpmnElement="Task_6" isMarkerVisible="false">
         <dc:Bounds x="550" y="450" width="100" height="80" />
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Event_7_di" bpmnElement="Event_7">
+      <bpmndi:BPMNShape id="Event_7_di" bpmnElement="Event_7" isMarkerVisible="false">
         <dc:Bounds x="732" y="472" width="36" height="36" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="gwo1_di" bpmnElement="gwo1" isMarkerVisible="true">

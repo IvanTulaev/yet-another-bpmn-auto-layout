@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<bpmn2:definitions xmlns:bpmn2="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" id="variant-explorer-bpmn-graph" targetNamespace="http://bpmn.io/schema/bpmn" exporter="Camunda Modeler" exporterVersion="5.38.1">
+<bpmn2:definitions xmlns:bpmn2="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:bioc="http://bpmn.io/schema/bpmn/biocolor/1.0" xmlns:color="http://www.omg.org/spec/BPMN/non-normative/color/1.0" id="variant-explorer-bpmn-graph" targetNamespace="http://bpmn.io/schema/bpmn" exporter="Camunda Modeler" exporterVersion="5.38.1">
   <bpmn2:process id="Process" isExecutable="false">
     <bpmn2:sequenceFlow id="task_10_gwo_6" sourceRef="task_10" targetRef="gwo_6" />
     <bpmn2:sequenceFlow id="gwi_4_task_10" sourceRef="gwi_4" targetRef="task_10" />
@@ -287,7 +287,7 @@
         <di:waypoint x="3825" y="490" />
         <di:waypoint x="3825" y="375" />
       </bpmndi:BPMNEdge>
-      <bpmndi:BPMNShape id="task_17_di" bpmnElement="task_17">
+      <bpmndi:BPMNShape id="task_17_di" bpmnElement="task_17" bioc:stroke="#831311" bioc:fill="#ffcdd2" color:background-color="#ffcdd2" color:border-color="#831311">
         <dc:Bounds x="3625" y="450" width="100" height="80" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="gwi_6_di" bpmnElement="gwi_6" isMarkerVisible="true">
@@ -440,7 +440,7 @@
       <bpmndi:BPMNShape id="gwi_4_di" bpmnElement="gwi_4" isMarkerVisible="true">
         <dc:Bounds x="3200" y="45" width="50" height="50" />
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="gwo_6_di" bpmnElement="gwo_6" isMarkerVisible="true">
+      <bpmndi:BPMNShape id="gwo_6_di" bpmnElement="gwo_6" isMarkerVisible="true" bioc:stroke="#5b176d" bioc:fill="#e1bee7" color:background-color="#e1bee7" color:border-color="#5b176d">
         <dc:Bounds x="3500" y="185" width="50" height="50" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="task_10_di" bpmnElement="task_10">

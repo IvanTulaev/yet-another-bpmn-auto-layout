@@ -335,7 +335,7 @@
       <bpmndi:BPMNShape id="Activity_1lnr2w5_di" bpmnElement="Activity_1lnr2w5" isExpanded="true">
         <dc:Bounds x="475" y="1290" width="250" height="220" />
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Activity_0rnp5y7_di" bpmnElement="Activity_0rnp5y7">
+      <bpmndi:BPMNShape id="Activity_0rnp5y7_di" bpmnElement="Activity_0rnp5y7" isExpanded="false">
         <dc:Bounds x="775" y="1570" width="100" height="80" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNEdge id="Flow_08uz29r_di" bpmnElement="Flow_08uz29r">
@@ -389,7 +389,7 @@
       <bpmndi:BPMNShape id="Event_0l2j66h_di" bpmnElement="Event_0l2j66h">
         <dc:Bounds x="357" y="1872" width="36" height="36" />
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Activity_0o519ed_di" bpmnElement="Activity_0o519ed">
+      <bpmndi:BPMNShape id="Activity_0o519ed_di" bpmnElement="Activity_0o519ed" isExpanded="false">
         <dc:Bounds x="475" y="1710" width="100" height="80" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Activity_02fc2p3_di" bpmnElement="Activity_02fc2p3" isExpanded="true">
@@ -445,7 +445,7 @@
       <bpmndi:BPMNShape id="Event_040k6a6_di" bpmnElement="Event_040k6a6">
         <dc:Bounds x="357" y="2292" width="36" height="36" />
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Activity_1arvbqq_di" bpmnElement="Activity_1arvbqq">
+      <bpmndi:BPMNShape id="Activity_1arvbqq_di" bpmnElement="Activity_1arvbqq" isExpanded="false">
         <dc:Bounds x="475" y="2130" width="100" height="80" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Activity_15y2640_di" bpmnElement="Activity_15y2640" isExpanded="true">

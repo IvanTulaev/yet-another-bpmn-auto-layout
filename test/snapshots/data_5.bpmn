@@ -91,22 +91,22 @@
   </bpmn:process>
   <bpmndi:BPMNDiagram id="BPMNDiagram_Collaboration_0g7ujl5">
     <bpmndi:BPMNPlane id="BPMNPlane_Collaboration_0g7ujl5" bpmnElement="Collaboration_0g7ujl5">
-      <bpmndi:BPMNShape id="pool_0_di" bpmnElement="pool_0">
+      <bpmndi:BPMNShape id="pool_0_di" bpmnElement="pool_0" isHorizontal="true">
         <dc:Bounds x="0" y="0" width="960" height="840" />
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="lane_0_1_di" bpmnElement="lane_0_1">
+      <bpmndi:BPMNShape id="lane_0_1_di" bpmnElement="lane_0_1" isHorizontal="true">
         <dc:Bounds x="30" y="420" width="930" height="420" />
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="lane_0_0_di" bpmnElement="lane_0_0">
+      <bpmndi:BPMNShape id="lane_0_0_di" bpmnElement="lane_0_0" isHorizontal="true">
         <dc:Bounds x="30" y="0" width="930" height="420" />
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="pool_1_di" bpmnElement="pool_1">
+      <bpmndi:BPMNShape id="pool_1_di" bpmnElement="pool_1" isHorizontal="true">
         <dc:Bounds x="0" y="910" width="660" height="560" />
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="lane_1_1_di" bpmnElement="lane_1_1">
+      <bpmndi:BPMNShape id="lane_1_1_di" bpmnElement="lane_1_1" isHorizontal="true">
         <dc:Bounds x="30" y="1190" width="630" height="280" />
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="lane_1_0_di" bpmnElement="lane_1_0">
+      <bpmndi:BPMNShape id="lane_1_0_di" bpmnElement="lane_1_0" isHorizontal="true">
         <dc:Bounds x="30" y="910" width="630" height="280" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNEdge id="DataInputAssociation_05igrac_di" bpmnElement="DataInputAssociation_05igrac">
@@ -184,11 +184,11 @@
       <bpmndi:BPMNShape id="start_1_di" bpmnElement="start_1">
         <dc:Bounds x="192" y="1312" width="36" height="36" />
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNEdge bpmnElement="DataOutputAssociation_10dh1ie">
+      <bpmndi:BPMNEdge id="DataOutputAssociation_10dh1ie_di" bpmnElement="DataOutputAssociation_10dh1ie">
         <di:waypoint x="360" y="1290" />
         <di:waypoint x="510" y="305" />
       </bpmndi:BPMNEdge>
-      <bpmndi:BPMNEdge bpmnElement="DataInputAssociation_10ide2j">
+      <bpmndi:BPMNEdge id="DataInputAssociation_10ide2j_di" bpmnElement="DataInputAssociation_10ide2j">
         <di:waypoint x="510" y="305" />
         <di:waypoint x="510" y="1312" />
       </bpmndi:BPMNEdge>

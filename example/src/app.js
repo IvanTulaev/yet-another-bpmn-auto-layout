@@ -1,16 +1,16 @@
 import Viewer from 'bpmn-js/lib/NavigatedViewer.js';
 import Modeler from 'bpmn-js/lib/Modeler.js';
-
-import { layoutProcess } from '../../lib/index.js';
-
 import fileDrop from 'file-drops-safary-compatible';
 import fileOpen from 'file-open';
-
 import download from 'downloadjs';
+import BpmnColorPickerModule from 'bpmn-js-color-picker';
 
 import 'bpmn-js/dist/assets/diagram-js.css';
 import 'bpmn-js/dist/assets/bpmn-js.css';
 import 'bpmn-js/dist/assets/bpmn-font/css/bpmn-embedded.css';
+import 'bpmn-js-color-picker/colors/color-picker.css';
+
+import { layoutProcess } from '../../lib/index.js';
 
 import './app.css';
 
@@ -23,9 +23,9 @@ let isDebuggerOn = false;
 
 const modeler = new Modeler({
   container: '#modeler',
-  keyboard: {
-    bindTo: document,
-  },
+  additionalModules: [
+    BpmnColorPickerModule
+  ]
 });
 
 const viewer = new Viewer({

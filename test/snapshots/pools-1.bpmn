@@ -129,13 +129,13 @@
   </bpmn2:process>
   <bpmndi:BPMNDiagram id="BPMNDiagram_Collaboration_11tm0pj">
     <bpmndi:BPMNPlane id="BPMNPlane_Collaboration_11tm0pj" bpmnElement="Collaboration_11tm0pj">
-      <bpmndi:BPMNShape id="Participant_0j3y9or_di" bpmnElement="Participant_0j3y9or">
+      <bpmndi:BPMNShape id="Participant_0j3y9or_di" bpmnElement="Participant_0j3y9or" isHorizontal="true">
         <dc:Bounds x="0" y="0" width="1050" height="420" />
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Participant_0zyavix_di" bpmnElement="Participant_0zyavix">
+      <bpmndi:BPMNShape id="Participant_0zyavix_di" bpmnElement="Participant_0zyavix" isHorizontal="true">
         <dc:Bounds x="0" y="490" width="1050" height="420" />
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Participant_0rr91ia_di" bpmnElement="Participant_0rr91ia">
+      <bpmndi:BPMNShape id="Participant_0rr91ia_di" bpmnElement="Participant_0rr91ia" isHorizontal="true">
         <dc:Bounds x="0" y="980" width="1050" height="420" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="gwo0_di" bpmnElement="gwo0" isMarkerVisible="true">
@@ -302,11 +302,11 @@
         <di:waypoint x="300" y="1260" />
         <di:waypoint x="300" y="1145" />
       </bpmndi:BPMNEdge>
-      <bpmndi:BPMNEdge bpmnElement="Flow_0tn5l7p">
+      <bpmndi:BPMNEdge id="Flow_0tn5l7p_di" bpmnElement="Flow_0tn5l7p">
         <di:waypoint x="900" y="298" />
         <di:waypoint x="150" y="752" />
       </bpmndi:BPMNEdge>
-      <bpmndi:BPMNEdge bpmnElement="Flow_1vkou0t">
+      <bpmndi:BPMNEdge id="Flow_1vkou0t_di" bpmnElement="Flow_1vkou0t">
         <di:waypoint x="900" y="788" />
         <di:waypoint x="150" y="1242" />
       </bpmndi:BPMNEdge>

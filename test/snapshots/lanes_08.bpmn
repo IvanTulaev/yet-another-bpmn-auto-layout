@@ -44,25 +44,25 @@
   </bpmn:process>
   <bpmndi:BPMNDiagram id="BPMNDiagram_Collaboration_0if3opg">
     <bpmndi:BPMNPlane id="BPMNPlane_Collaboration_0if3opg" bpmnElement="Collaboration_0if3opg">
-      <bpmndi:BPMNShape id="pool_0_di" bpmnElement="pool_0">
+      <bpmndi:BPMNShape id="pool_0_di" bpmnElement="pool_0" isHorizontal="true">
         <dc:Bounds x="0" y="0" width="570" height="1260" />
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="lane_0_1_di" bpmnElement="lane_0_1">
+      <bpmndi:BPMNShape id="lane_0_1_di" bpmnElement="lane_0_1" isHorizontal="true">
         <dc:Bounds x="30" y="980" width="540" height="280" />
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="lane_0_0_di" bpmnElement="lane_0_0">
+      <bpmndi:BPMNShape id="lane_0_0_di" bpmnElement="lane_0_0" isHorizontal="true">
         <dc:Bounds x="30" y="0" width="540" height="980" />
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="lane_0_0_1_di" bpmnElement="lane_0_0_1">
+      <bpmndi:BPMNShape id="lane_0_0_1_di" bpmnElement="lane_0_0_1" isHorizontal="true">
         <dc:Bounds x="60" y="700" width="510" height="280" />
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="lane_0_0_0_di" bpmnElement="lane_0_0_0">
+      <bpmndi:BPMNShape id="lane_0_0_0_di" bpmnElement="lane_0_0_0" isHorizontal="true">
         <dc:Bounds x="60" y="0" width="510" height="700" />
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="lane_0_0_0_1_di" bpmnElement="lane_0_0_0_1">
+      <bpmndi:BPMNShape id="lane_0_0_0_1_di" bpmnElement="lane_0_0_0_1" isHorizontal="true">
         <dc:Bounds x="90" y="280" width="480" height="420" />
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="lane_0_0_0_0_di" bpmnElement="lane_0_0_0_0">
+      <bpmndi:BPMNShape id="lane_0_0_0_0_di" bpmnElement="lane_0_0_0_0" isHorizontal="true">
         <dc:Bounds x="90" y="0" width="480" height="280" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="start_0_di" bpmnElement="start_0">

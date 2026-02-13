@@ -40,10 +40,10 @@
   </bpmn:process>
   <bpmndi:BPMNDiagram id="BPMNDiagram_Collaboration_0vyp14b">
     <bpmndi:BPMNPlane id="BPMNPlane_Collaboration_0vyp14b" bpmnElement="Collaboration_0vyp14b">
-      <bpmndi:BPMNShape id="Participant_0stcz4y_di" bpmnElement="Participant_0stcz4y">
+      <bpmndi:BPMNShape id="Participant_0stcz4y_di" bpmnElement="Participant_0stcz4y" isHorizontal="true">
         <dc:Bounds x="0" y="0" width="750" height="280" />
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Participant_0cbouyp_di" bpmnElement="Participant_0cbouyp">
+      <bpmndi:BPMNShape id="Participant_0cbouyp_di" bpmnElement="Participant_0cbouyp" isHorizontal="true">
         <dc:Bounds x="0" y="350" width="600" height="280" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Event_1pac7ui_di" bpmnElement="Event_1pac7ui">
@@ -87,7 +87,7 @@
         <di:waypoint x="350" y="490" />
         <di:waypoint x="432" y="490" />
       </bpmndi:BPMNEdge>
-      <bpmndi:BPMNEdge bpmnElement="Flow_0y9bbj6">
+      <bpmndi:BPMNEdge id="Flow_0y9bbj6_di" bpmnElement="Flow_0y9bbj6">
         <di:waypoint x="600" y="158" />
         <di:waypoint x="150" y="472" />
       </bpmndi:BPMNEdge>

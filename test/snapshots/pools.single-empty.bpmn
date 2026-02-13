@@ -6,7 +6,7 @@
   <bpmn:process id="Process_0emkz0n" isExecutable="false" />
   <bpmndi:BPMNDiagram id="BPMNDiagram_Collaboration_1002m7p">
     <bpmndi:BPMNPlane id="BPMNPlane_Collaboration_1002m7p" bpmnElement="Collaboration_1002m7p">
-      <bpmndi:BPMNShape id="Participant_12qtii3_di" bpmnElement="Participant_12qtii3">
+      <bpmndi:BPMNShape id="Participant_12qtii3_di" bpmnElement="Participant_12qtii3" isHorizontal="true">
         <dc:Bounds x="0" y="0" width="400" height="100" />
       </bpmndi:BPMNShape>
     </bpmndi:BPMNPlane>

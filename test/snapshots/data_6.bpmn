@@ -26,13 +26,13 @@
   </bpmn:process>
   <bpmndi:BPMNDiagram id="BPMNDiagram_Collaboration_19zo1xy">
     <bpmndi:BPMNPlane id="BPMNPlane_Collaboration_19zo1xy" bpmnElement="Collaboration_19zo1xy">
-      <bpmndi:BPMNShape id="Participant_0l3uiqd_di" bpmnElement="Participant_0l3uiqd">
+      <bpmndi:BPMNShape id="Participant_0l3uiqd_di" bpmnElement="Participant_0l3uiqd" isHorizontal="true">
         <dc:Bounds x="0" y="0" width="660" height="700" />
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Lane_14bnria_di" bpmnElement="Lane_14bnria">
+      <bpmndi:BPMNShape id="Lane_14bnria_di" bpmnElement="Lane_14bnria" isHorizontal="true">
         <dc:Bounds x="30" y="280" width="630" height="420" />
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Lane_1ujj0nw_di" bpmnElement="Lane_1ujj0nw">
+      <bpmndi:BPMNShape id="Lane_1ujj0nw_di" bpmnElement="Lane_1ujj0nw" isHorizontal="true">
         <dc:Bounds x="30" y="0" width="630" height="280" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNEdge id="DataOutputAssociation_0slos5p_di" bpmnElement="DataOutputAssociation_0slos5p">

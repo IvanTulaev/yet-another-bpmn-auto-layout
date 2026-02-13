@@ -14,13 +14,13 @@
   </bpmn:process>
   <bpmndi:BPMNDiagram id="BPMNDiagram_Collaboration_0">
     <bpmndi:BPMNPlane id="BPMNPlane_Collaboration_0" bpmnElement="Collaboration_0">
-      <bpmndi:BPMNShape id="pool_0_di" bpmnElement="pool_0">
+      <bpmndi:BPMNShape id="pool_0_di" bpmnElement="pool_0" isHorizontal="true">
         <dc:Bounds x="0" y="0" width="360" height="700" />
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="lane_1_di" bpmnElement="lane_1">
+      <bpmndi:BPMNShape id="lane_1_di" bpmnElement="lane_1" isHorizontal="true">
         <dc:Bounds x="30" y="420" width="330" height="280" />
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="lane_0_di" bpmnElement="lane_0">
+      <bpmndi:BPMNShape id="lane_0_di" bpmnElement="lane_0" isHorizontal="true">
         <dc:Bounds x="30" y="0" width="330" height="420" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="DataObject_0_di" bpmnElement="DataObject_0">

@@ -635,13 +635,13 @@
   </bpmn2:process>
   <bpmndi:BPMNDiagram id="BPMNDiagram_Collaboration_489">
     <bpmndi:BPMNPlane id="BPMNPlane_Collaboration_489" bpmnElement="Collaboration_489">
-      <bpmndi:BPMNShape id="Participant_Proc_1_di" bpmnElement="Participant_Proc_1">
+      <bpmndi:BPMNShape id="Participant_Proc_1_di" bpmnElement="Participant_Proc_1" isHorizontal="true">
         <dc:Bounds x="0" y="0" width="4800" height="1120" />
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Participant_Proc_2_di" bpmnElement="Participant_Proc_2">
+      <bpmndi:BPMNShape id="Participant_Proc_2_di" bpmnElement="Participant_Proc_2" isHorizontal="true">
         <dc:Bounds x="0" y="1190" width="5100" height="1120" />
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Participant_Proc_3_di" bpmnElement="Participant_Proc_3">
+      <bpmndi:BPMNShape id="Participant_Proc_3_di" bpmnElement="Participant_Proc_3" isHorizontal="true">
         <dc:Bounds x="0" y="2380" width="4950" height="980" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Proc_1_Start_di" bpmnElement="Proc_1_Start">
@@ -1568,19 +1568,19 @@
         <di:waypoint x="4675" y="2660" />
         <di:waypoint x="4782" y="2660" />
       </bpmndi:BPMNEdge>
-      <bpmndi:BPMNEdge bpmnElement="Flow_0">
+      <bpmndi:BPMNEdge id="Flow_0_di" bpmnElement="Flow_0">
         <di:waypoint x="3900" y="718" />
         <di:waypoint x="1800" y="1452" />
       </bpmndi:BPMNEdge>
-      <bpmndi:BPMNEdge bpmnElement="Flow_1">
+      <bpmndi:BPMNEdge id="Flow_1_di" bpmnElement="Flow_1">
         <di:waypoint x="3900" y="858" />
         <di:waypoint x="1200" y="1452" />
       </bpmndi:BPMNEdge>
-      <bpmndi:BPMNEdge bpmnElement="Flow_2">
+      <bpmndi:BPMNEdge id="Flow_2_di" bpmnElement="Flow_2">
         <di:waypoint x="2850" y="2048" />
         <di:waypoint x="150" y="2642" />
       </bpmndi:BPMNEdge>
-      <bpmndi:BPMNEdge bpmnElement="Flow_3">
+      <bpmndi:BPMNEdge id="Flow_3_di" bpmnElement="Flow_3">
         <di:waypoint x="4800" y="2642" />
         <di:waypoint x="150" y="298" />
       </bpmndi:BPMNEdge>

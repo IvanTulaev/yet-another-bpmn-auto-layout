@@ -41,10 +41,10 @@
   </bpmn:process>
   <bpmndi:BPMNDiagram id="BPMNDiagram_Collaboration_0g7ujl5">
     <bpmndi:BPMNPlane id="BPMNPlane_Collaboration_0g7ujl5" bpmnElement="Collaboration_0g7ujl5">
-      <bpmndi:BPMNShape id="pool_0_di" bpmnElement="pool_0">
+      <bpmndi:BPMNShape id="pool_0_di" bpmnElement="pool_0" isHorizontal="true">
         <dc:Bounds x="0" y="0" width="600" height="420" />
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="pool_1_di" bpmnElement="pool_1">
+      <bpmndi:BPMNShape id="pool_1_di" bpmnElement="pool_1" isHorizontal="true">
         <dc:Bounds x="0" y="490" width="600" height="280" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNEdge id="DataOutputAssociation_09svrzm_di" bpmnElement="DataOutputAssociation_09svrzm">
@@ -89,7 +89,7 @@
         <di:waypoint x="350" y="630" />
         <di:waypoint x="432" y="630" />
       </bpmndi:BPMNEdge>
-      <bpmndi:BPMNEdge bpmnElement="DataOutputAssociation_1gj31m8">
+      <bpmndi:BPMNEdge id="DataOutputAssociation_1gj31m8_di" bpmnElement="DataOutputAssociation_1gj31m8">
         <di:waypoint x="300" y="590" />
         <di:waypoint x="450" y="305" />
       </bpmndi:BPMNEdge>

@@ -41,10 +41,10 @@
   </bpmn:process>
   <bpmndi:BPMNDiagram id="BPMNDiagram_Collaboration_1b1wk91">
     <bpmndi:BPMNPlane id="BPMNPlane_Collaboration_1b1wk91" bpmnElement="Collaboration_1b1wk91">
-      <bpmndi:BPMNShape id="Participant_1hv6y36_di" bpmnElement="Participant_1hv6y36">
+      <bpmndi:BPMNShape id="Participant_1hv6y36_di" bpmnElement="Participant_1hv6y36" isHorizontal="true">
         <dc:Bounds x="0" y="0" width="450" height="280" />
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Participant_15fkuw0_di" bpmnElement="Participant_15fkuw0">
+      <bpmndi:BPMNShape id="Participant_15fkuw0_di" bpmnElement="Participant_15fkuw0" isHorizontal="true">
         <dc:Bounds x="0" y="350" width="450" height="420" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Activity_0i6gfg7_di" bpmnElement="Activity_0i6gfg7">
