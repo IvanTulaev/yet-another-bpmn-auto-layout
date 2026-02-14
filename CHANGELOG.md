@@ -2,6 +2,9 @@
 
 All notable changes to [yet-another-bpmn-auto-layout](https://github.com/IvanTulaev/yet-another-bpmn-auto-layout) are documented here. We use [semantic versioning](http://semver.org/) for releases.
 
+## 1.1.0
+- feat: preserving diagram properties that do not affect elements layout
+
 ## 1.0.2
 - feat: all elements at lanes tree are drawn
 - fix: shake function
