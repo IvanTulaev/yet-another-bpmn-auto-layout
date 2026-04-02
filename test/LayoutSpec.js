@@ -36,7 +36,7 @@ describe('Layout', function() {
         const xml = fs.readFileSync(path.join(fixturesDirectory, fileName), 'utf8');
 
         // when
-        const output = await layoutProcess(xml);
+        const output = await layoutProcess(xml, {output:{format:true}});
 
         fs.writeFileSync(path.join(outputDirectory, fileName), output, 'utf8');
 

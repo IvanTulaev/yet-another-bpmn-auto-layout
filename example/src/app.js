@@ -36,7 +36,8 @@ const update = async () => {
   console.log(debugStepsCounter);
   const { xml } = await modeler.saveXML({ format: true });
 
-  const xmlWithLayout = await layoutProcess(xml, isDebuggerOn ? debugStepsCounter : undefined);
+  const options = { debug: { steps: isDebuggerOn ? debugStepsCounter : undefined } };
+  const xmlWithLayout = await layoutProcess(xml, options);
 
   viewer
     .importXML(xmlWithLayout)
