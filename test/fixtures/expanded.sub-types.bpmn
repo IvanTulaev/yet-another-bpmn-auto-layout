@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" id="Definitions_1" targetNamespace="http://bpmn.io/schema/bpmn" exporter="Camunda Modeler" exporterVersion="5.43.1">
+  <bpmn:process id="Process_0qbtj7m" isExecutable="true">
+    <bpmn:startEvent id="StartEvent_0">
+      <bpmn:outgoing>Flow_02gefl2</bpmn:outgoing>
+    </bpmn:startEvent>
+    <bpmn:endEvent id="EndEvent_0">
+      <bpmn:incoming>Flow_1s9gnc5</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:sequenceFlow id="Flow_02gefl2" sourceRef="StartEvent_0" targetRef="transaction_0" />
+    <bpmn:sequenceFlow id="Flow_0bin9sv" sourceRef="transaction_0" targetRef="adHocSubProcess_0" />
+    <bpmn:sequenceFlow id="Flow_1s9gnc5" sourceRef="adHocSubProcess_0" targetRef="EndEvent_0" />
+    <bpmn:transaction id="transaction_0" name="transaction_0">
+      <bpmn:incoming>Flow_02gefl2</bpmn:incoming>
+      <bpmn:outgoing>Flow_0bin9sv</bpmn:outgoing>
+      <bpmn:multiInstanceLoopCharacteristics />
+    </bpmn:transaction>
+    <bpmn:adHocSubProcess id="adHocSubProcess_0" name="adHocSubProcess_0">
+      <bpmn:incoming>Flow_0bin9sv</bpmn:incoming>
+      <bpmn:outgoing>Flow_1s9gnc5</bpmn:outgoing>
+    </bpmn:adHocSubProcess>
+  </bpmn:process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_1">
+    <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="Process_0qbtj7m">
+      <bpmndi:BPMNShape id="StartEvent_1_di" bpmnElement="StartEvent_0">
+        <dc:Bounds x="182" y="162" width="36" height="36" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Event_1ls95gv_di" bpmnElement="EndEvent_0">
+        <dc:Bounds x="1132" y="162" width="36" height="36" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_1si86xl_di" bpmnElement="transaction_0" isExpanded="true">
+        <dc:Bounds x="250" y="90" width="350" height="200" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_03t9sgr_di" bpmnElement="adHocSubProcess_0" isExpanded="true">
+        <dc:Bounds x="670" y="80" width="350" height="200" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="Flow_02gefl2_di" bpmnElement="Flow_02gefl2">
+        <di:waypoint x="218" y="180" />
+        <di:waypoint x="250" y="180" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_0bin9sv_di" bpmnElement="Flow_0bin9sv">
+        <di:waypoint x="600" y="180" />
+        <di:waypoint x="670" y="180" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_1s9gnc5_di" bpmnElement="Flow_1s9gnc5">
+        <di:waypoint x="1020" y="180" />
+        <di:waypoint x="1132" y="180" />
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn:definitions>
