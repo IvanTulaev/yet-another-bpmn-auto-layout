@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" id="Definitions_PizzaDelivery" targetNamespace="http://bpmn.io/schema/bpmn">
+  <bpmn:process id="Process_PizzaDelivery" name="Pizza delivery" isExecutable="false">
+    <bpmn:startEvent id="StartEvent_OrderReceived" name="Order received">
+      <bpmn:outgoing>Flow_1</bpmn:outgoing>
+    </bpmn:startEvent>
+    <bpmn:exclusiveGateway id="Gateway_OrderAccepted" name="Order accepted?">
+      <bpmn:incoming>Flow_1</bpmn:incoming>
+      <bpmn:outgoing>Flow_2</bpmn:outgoing>
+      <bpmn:outgoing>Flow_3</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:exclusiveGateway id="Gateway_Pickup" name="Pickup?">
+      <bpmn:incoming>Flow_2</bpmn:incoming>
+      <bpmn:outgoing>Flow_4</bpmn:outgoing>
+      <bpmn:outgoing>Flow_5</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:exclusiveGateway id="Gateway_Courier" name="Courier available?">
+      <bpmn:incoming>Flow_4</bpmn:incoming>
+      <bpmn:outgoing>Flow_6</bpmn:outgoing>
+      <bpmn:outgoing>Flow_7</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:task id="Task_CallCourier" name="Call a courier">
+      <bpmn:incoming>Flow_6</bpmn:incoming>
+      <bpmn:outgoing>Flow_8</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="Task_DeliverPizza" name="Deliver pizza">
+      <bpmn:incoming>Flow_7</bpmn:incoming>
+      <bpmn:incoming>Flow_8</bpmn:incoming>
+      <bpmn:outgoing>Flow_9</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:exclusiveGateway id="Gateway_CustomerHappy" name="Customer happy?">
+      <bpmn:incoming>Flow_9</bpmn:incoming>
+      <bpmn:outgoing>Flow_10</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:task id="Task_HandleComplaint" name="Handle complaint">
+      <bpmn:incoming>Flow_3</bpmn:incoming>
+      <bpmn:incoming>Flow_10</bpmn:incoming>
+      <bpmn:outgoing>Flow_11</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:exclusiveGateway id="Gateway_Compensate" name="Compensation needed?">
+      <bpmn:incoming>Flow_11</bpmn:incoming>
+      <bpmn:outgoing>Flow_12</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:task id="Task_CloseOrder" name="Close order">
+      <bpmn:incoming>Flow_5</bpmn:incoming>
+      <bpmn:incoming>Flow_12</bpmn:incoming>
+      <bpmn:outgoing>Flow_13</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:endEvent id="EndEvent_OrderClosed" name="Order closed">
+      <bpmn:incoming>Flow_13</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:boundaryEvent id="BoundaryEvent_Late" name="Late by 60 minutes" attachedToRef="Task_DeliverPizza">
+      <bpmn:timerEventDefinition id="TimerEventDefinition_Late" />
+    </bpmn:boundaryEvent>
+    <bpmn:sequenceFlow id="Flow_1" sourceRef="StartEvent_OrderReceived" targetRef="Gateway_OrderAccepted" />
+    <bpmn:sequenceFlow id="Flow_2" name="yes" sourceRef="Gateway_OrderAccepted" targetRef="Gateway_Pickup" />
+    <bpmn:sequenceFlow id="Flow_3" name="no" sourceRef="Gateway_OrderAccepted" targetRef="Task_HandleComplaint" />
+    <bpmn:sequenceFlow id="Flow_4" name="no" sourceRef="Gateway_Pickup" targetRef="Gateway_Courier" />
+    <bpmn:sequenceFlow id="Flow_5" name="yes" sourceRef="Gateway_Pickup" targetRef="Task_CloseOrder" />
+    <bpmn:sequenceFlow id="Flow_6" name="no" sourceRef="Gateway_Courier" targetRef="Task_CallCourier" />
+    <bpmn:sequenceFlow id="Flow_7" name="yes" sourceRef="Gateway_Courier" targetRef="Task_DeliverPizza" />
+    <bpmn:sequenceFlow id="Flow_8" sourceRef="Task_CallCourier" targetRef="Task_DeliverPizza" />
+    <bpmn:sequenceFlow id="Flow_9" sourceRef="Task_DeliverPizza" targetRef="Gateway_CustomerHappy" />
+    <bpmn:sequenceFlow id="Flow_10" name="no" sourceRef="Gateway_CustomerHappy" targetRef="Task_HandleComplaint" />
+    <bpmn:sequenceFlow id="Flow_11" sourceRef="Task_HandleComplaint" targetRef="Gateway_Compensate" />
+    <bpmn:sequenceFlow id="Flow_12" name="no" sourceRef="Gateway_Compensate" targetRef="Task_CloseOrder" />
+    <bpmn:sequenceFlow id="Flow_13" sourceRef="Task_CloseOrder" targetRef="EndEvent_OrderClosed" />
+  </bpmn:process>
+</bpmn:definitions>
