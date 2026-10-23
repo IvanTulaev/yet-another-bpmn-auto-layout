@@ -2,6 +2,9 @@
 
 All notable changes to [yet-another-bpmn-auto-layout](https://github.com/IvanTulaev/yet-another-bpmn-auto-layout) are documented here. We use [semantic versioning](http://semver.org/) for releases.
 
+## 2.0.3
+- fix: layout fails when a task with a boundary event is moved up 
+
 ## 2.0.2
 - feat: add text annotation - first iteration for flow elements #8
 
